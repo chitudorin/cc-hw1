@@ -2,7 +2,7 @@
 
 ## Homework 1 – Host a Public Static Web Page on Azure Storage
 
-This script creates a Resource Group in Azure based on the environment variables in `.env`
+This script creates a Resource Group, a Storage Account with static website hosting enabled and uploads a generic static resume page.
 
 ### Prerequisites
 
@@ -11,4 +11,4 @@ This script creates a Resource Group in Azure based on the environment variables
 
 ### Usage
 
-Copy `.env.example` to `.env`, fill `PROJECT=` and `LOCATION=`, make the script executable (`chmod +x deploy.sh`) and run it.
+Copy `.env.example` to `.env`, fill the environment variables, make the script executable (`chmod +x deploy.sh`) and run it.
